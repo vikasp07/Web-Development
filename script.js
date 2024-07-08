@@ -38,11 +38,11 @@ function fetchWeather(location) {
 
             const temp = data.main.temp;
 
-            // Reset iconElement src
+            
             iconElement.src = '';
             iconElement.style.opacity = 1;
 
-            // Change background image and icon based on temperature
+            
             if (temp >= 10 && temp < 15) {
                 document.body.style.backgroundColor = '#9DB4C0';
                 iconElement.src = "images/snow.png";
@@ -81,7 +81,6 @@ function fetchWeather(location) {
         })
         .catch(error => {
             console.error('Error fetching weather data:', error);
-            // Show an error message to the user
             locationElement.textContent = 'Sorry, location not found';
             temperatureElement.textContent = '';
             descriptionElement.textContent = '';
