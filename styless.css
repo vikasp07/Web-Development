@@ -1,0 +1,96 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    height: 100vh; /* Set the height to fill the viewport */
+    background-color: rgba(162, 222, 248, 0.51);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.842); /* Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top: 105px;
+    color: #010101;
+}
+
+h1 {
+    font-size: 40px;
+    color: #000000;
+    margin: 10px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+
+
+#icon {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    opacity: 0;
+    margin-left: 150px;
+    margin-right: 50px;
+    
+}
+
+.info--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#location {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#temperature {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#description {
+    font-style: italic;
+}
+
+.temp--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
