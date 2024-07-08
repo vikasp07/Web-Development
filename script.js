@@ -49,7 +49,7 @@ function fetchWeather(location) {
                 descriptionElement.textContent = "The weather is cool, offering a refreshing escape from the heat. It's a great time to enjoy outdoor activities, as the temperature is mild and comfortable. You might need a light jacket or sweater, especially in the early morning or evening hours. The cool weather can invigorate your senses and provide a pleasant environment for leisurely walks, cycling, or a picnic in the park.";
             } else if (temp >= 15 && temp < 20) {
                 document.body.style.backgroundColor = '#C7E5ED';
-                iconElement.src = "images/mild.png";
+                iconElement.src = "images/warm.png";
                 descriptionElement.textContent = "The temperature is mild, making it ideal for a variety of activities. The air feels just right – not too hot and not too cold. You can enjoy a casual stroll, jog, or bike ride without worrying about extreme temperatures. It's also perfect weather for gardening, reading a book outdoors, or enjoying a cup of coffee on the patio. Dressing in layers is recommended to stay comfortable throughout the day.";
             } else if (temp >= 20 && temp < 25) {
                 document.body.style.backgroundColor = '#F5ECD7';
